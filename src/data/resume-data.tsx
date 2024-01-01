@@ -88,7 +88,7 @@ export const RESUME_DATA = {
     {
       company: "Region Örebro Län",
       link: "https://regionorebrolan.se",
-      badges: [ "Personality assessment","Evidence-based treatment"],
+      badges: [ "Assessment","Evidence-based treatment"],
       title: "Certified Psychologist",
       // logo: AmbitLogo, // Placeholder
       start: "2018",
