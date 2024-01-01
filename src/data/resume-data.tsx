@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       school: "EC Utbildningar",
       degree: "Fullstack .NET Developer",
       start: "2022",
-      end: "Current",
+      end: "2024",
     },
     {
       school: "Udemy",
