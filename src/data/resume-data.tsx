@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
   "A builder at heart and a psychologist by training. Interested in all sorts of things, always enjoying a challenge. My hands-on approach is driven by a passion for creating and problem-solving.",
   summary:
-  "Equally invested in the fields of technology and social sciences, I channel my dual expertise into impactful community building and political engagement, serving as a member of the social welfare board. My work is informed by an intrinsic motivation to do good and drive societal progress through both my technical projects and political endeavors. Enthusiastic about open source development.",
+  "Equally invested in the fields of technology and social sciences, I channel my dual expertise into impactful community building and political engagement, serving as a member of the social welfare board of my local commune since 2023. My work is informed by an intrinsic motivation to do good and drive societal progress through both my technical projects and political endeavors. Enthusiastic about open source development.",
   avatarUrl: "https://media.licdn.com/dms/image/C4D03AQETQ5PcQZXyOw/profile-displayphoto-shrink_800_800/0/1594379517061?e=1709769600&v=beta&t=q9L9D2lu4mYj0mZIR5GM4Si9WyXuISYDTUxH5q8eTcI",
   personalWebsiteUrl: "https://cv.perstark.xyz",
   contact: {
@@ -55,6 +55,12 @@ export const RESUME_DATA = {
       end: "Current",
     },
     {
+      school: "Udemy",
+      degree: "Ethereum Blockchain Developer Bootcamp With Solidity",
+      start: "2022",
+      end: "2022",
+    },
+    {
       school: "Örebro Universitet",
       degree: "Psykologexamen (Psychologist), Master's in Psychology",
       start: "2011",
@@ -65,12 +71,6 @@ export const RESUME_DATA = {
       degree: "Tekniskt basår (Technical Preparatory Year)",
       start: "2010",
       end: "2011",
-    },
-    {
-      school: "Udemy",
-      degree: "Ethereum Blockchain Developer Bootcamp With Solidity",
-      start: "2022",
-      end: "2022",
     },
   ],
   work: [
@@ -107,17 +107,17 @@ export const RESUME_DATA = {
       description:
         "Psychological assessment and evidence-based psychological treatment. Specialization regarding trauma related disorders as well as neuropsychiatric disorders. Responsible for the psychological knowledge at the clinic.",
     },
-    {
-      company: "Region Värmland",
-      link: "https://regionvarmland.se",
-      badges: ["Primary care", "CBT"],
-      title: "PTP Psychologist",
-      // logo: AmbitLogo, // Placeholder
-      start: "2016",
-      end: "2017",
-      description:
-        "Psychologist at primary care center. Psychological assessment and evidence-based psychological treatment. Process to become a certified psychologist.",
-    }
+    // {
+    //   company: "Region Värmland",
+    //   link: "https://regionvarmland.se",
+    //   badges: ["Primary care", "CBT"],
+    //   title: "PTP Psychologist",
+    //   // logo: AmbitLogo, // Placeholder
+    //   start: "2016",
+    //   end: "2017",
+    //   description:
+    //     "Psychologist at primary care center. Psychological assessment and evidence-based psychological treatment. Process to become a certified psychologist.",
+    // }
   ],
   skills: 
     [
@@ -149,7 +149,7 @@ export const RESUME_DATA = {
         "Vue",
         "Large language models",
       ],
-      description: "Tracking student sentiment in discord chat and analyzing with regard to psychological variables pertaining stress.",
+      description: "Tracking student sentiment in discord chat and analyzing with regard to psychological variables pertaining stress using LLMs.",
       // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "sentiment",
@@ -165,7 +165,7 @@ export const RESUME_DATA = {
         "Vue",
         "Large language models",
       ],
-      description: "Using LLMs to provide a frontend to a dataset containing Lekebergs kommun invoices.",
+      description: "Using LLMs to provide a more engaging approach to displaying a dataset containing Lekebergs kommun invoices. Making the data more accessible and easier to understand.",
       // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "Lekberg Invoices",
@@ -184,7 +184,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Personal Website (deprecated)",
-      techStack: ["Side Project", "TypeScript", "React", "Solidity", "Blockchain"],
+      techStack: ["Side Project", "TypeScript", "React", "Solidity", "Blockchain", "NFT"],
       description: "Personal website, including a NFT mint with generated profile pictures, also showcasing old projects.",
       // logo: YearProgressLogo, // Placeholder
       link: {
