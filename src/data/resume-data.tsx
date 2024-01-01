@@ -16,6 +16,7 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  TiqqeLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -27,9 +28,9 @@ export const RESUME_DATA = {
   about:
   "A builder at heart and a psychologist by training. Interested in all sorts of things, always enjoying a challenge. My hands-on approach is driven by a passion for creating and problem-solving.",
   summary:
-  "Equally invested in the fields of technology and social sciences, I channel my dual expertise into impactful community building and political engagement, serving as a member of the social welfare board. My work is informed by an intrinsic motivation to foster communal ties and drive societal progress through both my technical projects and political endeavors.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/yourusername?v=4",
-  personalWebsiteUrl: "https://perstark.xyz",
+  "Equally invested in the fields of technology and social sciences, I channel my dual expertise into impactful community building and political engagement, serving as a member of the social welfare board. My work is informed by an intrinsic motivation to do good and drive societal progress through both my technical projects and political endeavors. Enthusiastic about open source development.",
+  avatarUrl: "https://media.licdn.com/dms/image/C4D03AQETQ5PcQZXyOw/profile-displayphoto-shrink_800_800/0/1594379517061?e=1709769600&v=beta&t=q9L9D2lu4mYj0mZIR5GM4Si9WyXuISYDTUxH5q8eTcI",
+  personalWebsiteUrl: "https://cv.perstark.xyz",
   contact: {
     email: "perstark.se@gmail.com",
     tel: "+4670276752",
@@ -48,16 +49,22 @@ export const RESUME_DATA = {
     },
   education: [
     {
-      school: "Örebro Universitet",
-      degree: "Psychologist degree, Masters",
-      start: "2011",
-      end: "2016",
-    },
-    {
       school: "EC Utbildningar",
       degree: "Fullstack .NET Developer",
       start: "2022",
       end: "Current",
+    },
+    {
+      school: "Örebro Universitet",
+      degree: "Psykologexamen (Psychologist), Master's in Psychology",
+      start: "2011",
+      end: "2016",
+    },
+    {
+      school: "Karlstad Universitet",
+      degree: "Tekniskt basår (Technical Preparatory Year)",
+      start: "2010",
+      end: "2011",
     },
     {
       school: "Udemy",
@@ -68,15 +75,26 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "TIQQE AB",
+      link: "https://tiqqe.com",
+      badges: ["IT Consulting", "AWS Partner", "Serverless"],
+      title: "Full Stack Developer",
+      // logo: TiqqeLogo, // Placeholder
+      start: "2023",
+      end: "Current",
+      description:
+        "Software development of serverless applications in AWS using TypeScript and Vue. Using AI to solve real problems for clients.",
+    },
+    {
       company: "Region Örebro Län",
       link: "https://regionorebrolan.se",
-      badges: ["Certified Psychologist", "Personality assessment", "CBT"],
+      badges: [ "Personality assessment","Evidence-based treatment"],
       title: "Certified Psychologist",
       // logo: AmbitLogo, // Placeholder
       start: "2018",
       end: "2023",
       description:
-        "Specialized in psychological assessment and evidence-based psychological treatment, primarily CBT. Development of control regarding flow and work around patients with mental illness.",
+        "Specialized in psychological assessment and evidence-based psychological treatment, primarily CBT. Development of control regarding flow and work around patients with mental illness. Responsible for psychological knowledge in interprofressional assessment team. Recurring media appearances as a way to spread psychological knowledge.",
     },
     {
       company: "Region Västra Götaland",
@@ -87,19 +105,19 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2018",
       description:
-        "Psychological assessment and evidence-based psychological treatment. Specialization regarding trauma related disorders as well as neuropsychiatric disorders.",
+        "Psychological assessment and evidence-based psychological treatment. Specialization regarding trauma related disorders as well as neuropsychiatric disorders. Responsible for the psychological knowledge at the clinic.",
     },
     {
-      company: "TIQQE AB",
-      link: "https://tiqqe.com",
-      badges: ["Remote", "IT Consulting", "AWS Partner", "Serverless"],
-      title: "Software Developer",
-      // logo: BarepapersLogo, // Placeholder
-      start: "2022",
-      end: "Current",
+      company: "Region Värmland",
+      link: "https://regionvarmland.se",
+      badges: ["Primary care", "CBT"],
+      title: "PTP Psychologist",
+      // logo: AmbitLogo, // Placeholder
+      start: "2016",
+      end: "2017",
       description:
-        "Software development of serverless applications in AWS using TypeScript and Vue. Using AI to solve real problems for clients.",
-    },
+        "Psychologist at primary care center. Psychological assessment and evidence-based psychological treatment. Process to become a certified psychologist.",
+    }
   ],
   skills: 
     [
@@ -111,10 +129,15 @@ export const RESUME_DATA = {
       ".NET",
       "Vue",
       "Solidity",
+      "EVM",
+      "Docker",
+      "AWS",
       "Psychological Assessments",
       "Evidence-based Psychological Treatment",
       "CBT",
       "Neuropsychiatric Assessments",
+      "Trauma-related Disorders",
+      
     ],
     projects: [
     {
@@ -127,14 +150,14 @@ export const RESUME_DATA = {
         "Large language models",
       ],
       description: "Tracking student sentiment in discord chat and analyzing with regard to psychological variables pertaining stress.",
-      logo: TastyCloudLogo, // Placeholder
+      // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "sentiment",
         href: "https://sentiment.perstark.xyz/",
       },
     },
     {
-      title: "AI frontend Lekebergs kommun invoices",
+      title: "AI Frontend Lekebergs Kommun Invoices",
       techStack: [
         "Side Project",
         "Python",
@@ -143,22 +166,31 @@ export const RESUME_DATA = {
         "Large language models",
       ],
       description: "Using LLMs to provide a frontend to a dataset containing Lekebergs kommun invoices.",
-      logo: TastyCloudLogo, // Placeholder
+      // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "Lekberg Invoices",
         href: "https://lekebergsfakturor.perstark.xyz/",
       },
     },
     {
-      title: "Personal Website (legacy)",
+      title: "NixOS Configuration",
+      techStack: ["NixOS", "Nix", "Shell", "Linux", "DevOps"],
+      description: "NixOS configuration for my different systems, ensuring reproducibility.",
+      // logo: TastyCloudLogo, // Placeholder
+      link: {
+        label: "NixOS",
+        href: "https://github.com/perstarkse/nixos-config",
+      },
+    },
+    {
+      title: "Personal Website (deprecated)",
       techStack: ["Side Project", "TypeScript", "React", "Solidity", "Blockchain"],
       description: "Personal website, including a NFT mint with generated profile pictures, also showcasing old projects.",
-      logo: YearProgressLogo, // Placeholder
+      // logo: YearProgressLogo, // Placeholder
       link: {
         label: "legacy",
-        href: "https://perstark.xyz/",
+        href: "https://github.com/perstarkse/personal-webpage/",
       },
     }
-    // ... Add other projects here
   ],
 } as const; 
