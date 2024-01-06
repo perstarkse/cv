@@ -149,7 +149,7 @@ export const RESUME_DATA = {
         "Vue",
         "Large language models",
       ],
-      description: "Tracking student sentiment in discord chat and analyzing with regard to psychological variables pertaining stress using LLMs.",
+      description: "Tracking student sentiment in discord chat and analyzing with regard to psychological variables pertaining stress using LLMs. Moving beyond simple sentiment analysis to provide a more nuanced understanding of the data.",
       // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "sentiment",
@@ -173,23 +173,22 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "SynthwavePunks",
+      techStack: ["Side Project", "TypeScript", "React", "Solidity", "Blockchain", "NFT"],
+      description: "NFT mint with AI generated profile pictures, using stable-diffusion in 2022.",
+      link: {
+        label: "SynthwavePunks",
+        href: "https://synthwavepunks.perstark.xyz/",
+      },
+    },
+    {
       title: "NixOS Configuration",
       techStack: ["NixOS", "Nix", "Shell", "Linux", "DevOps"],
       description: "NixOS configuration for my different systems, ensuring reproducibility.",
       // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "NixOS",
-        href: "https://github.com/perstarkse/nixos-config",
-      },
-    },
-    {
-      title: "Personal Website (deprecated)",
-      techStack: ["Side Project", "TypeScript", "React", "Solidity", "Blockchain", "NFT"],
-      description: "Personal website, including a NFT mint with generated profile pictures, also showcasing old projects.",
-      // logo: YearProgressLogo, // Placeholder
-      link: {
-        label: "legacy",
-        href: "https://github.com/perstarkse/personal-webpage/",
+        href: "https://github.com/perstarkse/nixos-config/",
       },
     }
   ],
