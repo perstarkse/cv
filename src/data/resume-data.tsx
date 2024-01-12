@@ -33,7 +33,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://cv.perstark.xyz",
   contact: {
     email: "perstark.se@gmail.com",
-    tel: "+4670276752",
+    tel: "+46760276752",
     social: [
       {
         name: "GitHub",
