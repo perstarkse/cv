@@ -164,7 +164,7 @@ export default function Page() {
             {RESUME_DATA.noteableAchievements.map((achievement) => {
               return (
                 <>
-                  <p key={achievement.title}>{achievement.title}</p>
+                  <p className="font-semibold ">{achievement.title}</p>
                   <p className="text-sm text-gray-500">
                     {achievement.description}
                   </p>
