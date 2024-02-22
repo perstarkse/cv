@@ -159,6 +159,21 @@ export default function Page() {
           })}
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Notable Achievements</h2>
+          <ul className="flex flex-col gap-1">
+            {RESUME_DATA.noteableAchievements.map((achievement) => {
+              return (
+                <>
+                  <p key={achievement.title}>{achievement.title}</p>
+                  <p className="text-sm text-gray-500">
+                    {achievement.description}
+                  </p>
+                </>
+              );
+            })}
+          </ul>
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {

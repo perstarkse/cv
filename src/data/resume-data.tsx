@@ -26,10 +26,13 @@ export const RESUME_DATA = {
   location: "Örebro, Sweden, CET",
   locationLink: "https://www.google.com/maps/place/Orebro",
   about:
-  "A builder at heart and a psychologist by training. Interested in all sorts of things, always enjoying a challenge. My hands-on approach is driven by a passion for creating and problem-solving.",
-  summary:
-  "Equally invested in the fields of technology and social sciences, I channel my dual expertise into impactful community building and political engagement, serving as a member of the social welfare board of my local commune since 2023. My work is informed by an intrinsic motivation to do good and drive societal progress through both my technical projects and political endeavors. Enthusiastic about open source development.",
-  avatarUrl: "https://media.licdn.com/dms/image/C4D03AQETQ5PcQZXyOw/profile-displayphoto-shrink_800_800/0/1594379517061?e=1709769600&v=beta&t=q9L9D2lu4mYj0mZIR5GM4Si9WyXuISYDTUxH5q8eTcI",
+    "A builder at heart, a psychologist by training, and a problem-solver by nature. Interested in all sorts of things, always enjoying a challenge. My hands-on approach is driven by a passion for creating and problem-solving.",
+  // "A highly motivated and results-oriented Full Stack Developer with a strong interest in computer science and a passion for solving complex problems. My background in psychology has equipped me with exceptional analytical, problem-solving, and communication skills, which I leverage to create user-friendly and effective software solutions. \n\n I am proficient in a wide range of programming languages and technologies, including TypeScript, .NET, JavaScript, Vue, React, and AWS. I am also an enthusiastic open source developer and have contributed to several projects on GitHub. I am eager to apply my skills and experience to develop innovative and impactful software solutions that make a positive difference in the world.",
+  summary: `A highly motivated and results-oriented Full Stack Developer with a strong interest in computer science and a passion for solving complex problems. My background in psychology has equipped me with exceptional analytical, problem-solving, and communication skills, which I leverage to create user-friendly and effective software solutions.
+    Proven ability to work effectively with a variety of programming languages and technologies, adapting to the specific requirements of each project. I am also an enthusiastic open source developer and have contributed to several projects on GitHub.
+    `,
+  avatarUrl:
+    "https://media.licdn.com/dms/image/C4D03AQETQ5PcQZXyOw/profile-displayphoto-shrink_800_800/0/1594379517061?e=1709769600&v=beta&t=q9L9D2lu4mYj0mZIR5GM4Si9WyXuISYDTUxH5q8eTcI",
   personalWebsiteUrl: "https://cv.perstark.xyz",
   contact: {
     email: "perstark.se@gmail.com",
@@ -44,9 +47,9 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/per-stark/",
         icon: LinkedInIcon,
-      }
+      },
     ],
-    },
+  },
   education: [
     {
       school: "EC Utbildningar",
@@ -83,12 +86,12 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Current",
       description:
-        "Software development of serverless applications in AWS using TypeScript and Vue. Using AI to solve real problems for clients.",
+        "Developed and implemented serverless applications using AWS, TypeScript, and Vue. Utilized AI to solve complex problems and deliver innovative solutions for clients, including a semantic search solution and a retrieval augmented generation system. Presented on generative AI and its applications to a wide audience. Led client and sales meetings, demonstrating strong communication and stakeholder management skills. Contributed to the development of enterprise-scale software solutions.",
     },
     {
       company: "Region Örebro Län",
       link: "https://regionorebrolan.se",
-      badges: [ "Assessment","Evidence-based treatment"],
+      badges: ["Assessment", "Evidence-based treatment"],
       title: "Certified Psychologist",
       // logo: AmbitLogo, // Placeholder
       start: "2018",
@@ -107,39 +110,38 @@ export const RESUME_DATA = {
       description:
         "Psychological assessment and evidence-based psychological treatment. Specialization regarding trauma related disorders as well as neuropsychiatric disorders. Responsible for the psychological knowledge at the clinic.",
     },
-    // {
-    //   company: "Region Värmland",
-    //   link: "https://regionvarmland.se",
-    //   badges: ["Primary care", "CBT"],
-    //   title: "PTP Psychologist",
-    //   // logo: AmbitLogo, // Placeholder
-    //   start: "2016",
-    //   end: "2017",
-    //   description:
-    //     "Psychologist at primary care center. Psychological assessment and evidence-based psychological treatment. Process to become a certified psychologist.",
-    // }
   ],
-  skills: 
-    [
-      "TypeScript",
-      "JavaScript",
-      "Large language models",
-      "Python",
-      "C#",
-      ".NET",
-      "Vue",
-      "Solidity",
-      "EVM",
-      "Docker",
-      "AWS",
-      "Psychological Assessments",
-      "Evidence-based Psychological Treatment",
-      "CBT",
-      "Neuropsychiatric Assessments",
-      "Trauma-related Disorders",
-      
-    ],
-    projects: [
+  noteableAchievements: [
+    {
+      title: "Part time politican in Lekebergs kommun",
+      description:
+        "Serving in the social committee, working with the budget and the social welfare of the municipality.",
+    },
+    {
+      title: "Media appearances as a psychologist",
+      description:
+        "Recurring media appearances as a way to spread psychological knowledge.",
+    },
+  ],
+  skills: [
+    "TypeScript",
+    "JavaScript",
+    "Large language models",
+    "Python",
+    "C#",
+    ".NET",
+    "Vue",
+    "Solidity",
+    "EVM",
+    "Docker",
+    "AWS",
+    "Psychological Assessments",
+    "Evidence-based Psychological Treatment",
+    "CBT",
+    "Neuropsychiatric Assessments",
+    "Trauma-related Disorders",
+  ],
+  projects: [
     {
       title: "Student Sentiment Analysis",
       techStack: [
@@ -149,7 +151,8 @@ export const RESUME_DATA = {
         "Vue",
         "Large language models",
       ],
-      description: "Tracking student sentiment in discord chat and analyzing with regard to psychological variables pertaining stress using LLMs. Moving beyond simple sentiment analysis to provide a more nuanced understanding of the data.",
+      description:
+        "Tracking student sentiment in discord chat and analyzing with regard to psychological variables pertaining stress using LLMs. Moving beyond simple sentiment analysis to provide a more nuanced understanding of the data.",
       // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "sentiment",
@@ -165,7 +168,8 @@ export const RESUME_DATA = {
         "Vue",
         "Large language models",
       ],
-      description: "Using LLMs to provide a more engaging approach to displaying a dataset containing Lekebergs kommun invoices. Making the data more accessible and easier to understand.",
+      description:
+        "Using LLMs to provide a more engaging approach to displaying a dataset containing Lekebergs kommun invoices. Making the data more accessible and easier to understand.",
       // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "Lekberg Invoices",
@@ -174,8 +178,16 @@ export const RESUME_DATA = {
     },
     {
       title: "SynthwavePunks",
-      techStack: ["Side Project", "TypeScript", "React", "Solidity", "Blockchain", "NFT"],
-      description: "NFT mint with AI generated profile pictures, using stable-diffusion in 2022.",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "React",
+        "Solidity",
+        "Blockchain",
+        "NFT",
+      ],
+      description:
+        "NFT mint with AI generated profile pictures, using stable-diffusion in 2022.",
       link: {
         label: "SynthwavePunks",
         href: "https://synthwavepunks.perstark.xyz/",
@@ -184,12 +196,13 @@ export const RESUME_DATA = {
     {
       title: "NixOS Configuration",
       techStack: ["NixOS", "Nix", "Shell", "Linux", "DevOps"],
-      description: "NixOS configuration for my different systems, ensuring reproducibility.",
+      description:
+        "NixOS configuration for my different systems, ensuring reproducibility.",
       // logo: TastyCloudLogo, // Placeholder
       link: {
         label: "NixOS",
         href: "https://github.com/perstarkse/nixos-config/",
       },
-    }
+    },
   ],
-} as const; 
+} as const;
