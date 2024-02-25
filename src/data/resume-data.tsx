@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Current",
       description:
-        "Developed and implemented serverless applications using AWS, TypeScript, and Vue. Utilized AI to solve complex problems and deliver innovative solutions for clients, including a semantic search solution and a retrieval augmented generation system. Presented on generative AI and its applications to a wide audience. Led client and sales meetings, demonstrating strong communication and stakeholder management skills. Contributed to the development of enterprise-scale software solutions.",
+        "Software development in a cloud enviroment. Utilized AI to solve complex problems and deliver innovative solutions for clients, including a semantic search solution and a retrieval augmented generation system. Presented on generative AI and its applications to a wide audience. Led client and sales meetings, demonstrating strong communication and stakeholder management skills. Contributed to the development of enterprise-scale software solutions.",
     },
     {
       company: "Region Örebro Län",
