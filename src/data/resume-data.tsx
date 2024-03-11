@@ -25,8 +25,8 @@ export const RESUME_DATA = {
   initials: "PS",
   location: "Örebro, Sweden, CET",
   locationLink: "https://www.google.com/maps/place/Orebro",
-  about:
-    "A builder at heart, a psychologist by training, and a problem-solver by nature. Interested in all sorts of things, always enjoying a challenge. My hands-on approach is driven by a passion for creating and problem-solving.",
+  about: "Software Developer & Psychologist",
+  // "A builder at heart, a psychologist by training, and a problem-solver by nature. Interested in all sorts of things, always enjoying a challenge. My hands-on approach is driven by a passion for creating and problem-solving.",
   // "A highly motivated and results-oriented Full Stack Developer with a strong interest in computer science and a passion for solving complex problems. My background in psychology has equipped me with exceptional analytical, problem-solving, and communication skills, which I leverage to create user-friendly and effective software solutions. \n\n I am proficient in a wide range of programming languages and technologies, including TypeScript, .NET, JavaScript, Vue, React, and AWS. I am also an enthusiastic open source developer and have contributed to several projects on GitHub. I am eager to apply my skills and experience to develop innovative and impactful software solutions that make a positive difference in the world.",
   summary: `A highly motivated and results-oriented software developer with a strong interest in computer science and a passion for solving complex problems. My background in psychology has equipped me with exceptional analytical, problem-solving, and communication skills, which I leverage to create user-friendly and effective software solutions.
     Proven ability to work effectively with a variety of programming languages and technologies, adapting to the specific requirements of each project. I am also an enthusiastic open source developer and have contributed to several projects on GitHub.
