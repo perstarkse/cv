@@ -1,24 +1,4 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-  TiqqeLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Per Stark",
@@ -32,7 +12,7 @@ export const RESUME_DATA = {
     Proven ability to work effectively with a variety of programming languages and technologies, adapting to the specific requirements of each project. I am also an enthusiastic open source developer and have contributed to several projects on GitHub.
     `,
   avatarUrl:
-    "https://media.licdn.com/dms/image/C4D03AQETQ5PcQZXyOw/profile-displayphoto-shrink_800_800/0/1594379517061?e=1709769600&v=beta&t=q9L9D2lu4mYj0mZIR5GM4Si9WyXuISYDTUxH5q8eTcI",
+    "https://media.licdn.com/dms/image/C4D03AQETQ5PcQZXyOw/profile-displayphoto-shrink_800_800/0/1594379517061?e=1715817600&v=beta&t=-dY2L00a5rge_4CEG03bjR9Pc5JGmOARfOE6nA9eLNk",
   personalWebsiteUrl: "https://cv.perstark.xyz",
   contact: {
     email: "perstark.se@gmail.com",
