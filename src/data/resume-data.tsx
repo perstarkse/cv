@@ -84,9 +84,9 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       // logo: TiqqeLogo, // Placeholder
       start: "2023",
-      end: "Current",
+      end: "2024",
       description:
-        "Software development in a cloud environment. Utilized AI to solve complex problems and deliver innovative solutions for clients, including a semantic search solution and a retrieval augmented generation system. Presented on generative AI and its applications to a wide audience. Led client and sales meetings, demonstrating strong communication and stakeholder management skills. Contributed to the development of enterprise-scale software solutions.",
+        "Software development in a cloud environment. Utilized AI to solve complex problems and deliver innovative solutions for clients, including a semantic search solution. Presented on generative AI and its applications to a wide audience. Led client and sales meetings, demonstrating strong communication and stakeholder management skills. Contributed to the development of enterprise-scale software solutions.",
     },
     {
       company: "Region Örebro Län",
@@ -126,15 +126,17 @@ export const RESUME_DATA = {
   skills: [
     "TypeScript",
     "JavaScript",
-    "Large language models",
     "Python",
     "C#",
     ".NET",
-    "Vue",
+    "Vue/Nuxt",
+    "React/NextJs",
     "Solidity",
-    "EVM",
+    "Linux",
     "Docker",
     "AWS",
+    "Machine Learning",
+    "Generative AI",
     "Psychological Assessments",
     "Evidence-based Psychological Treatment",
     "CBT",
